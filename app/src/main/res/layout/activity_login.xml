@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/logo" />
+        <EditText
+            android:layout_marginTop="70dp"
+            android:id="@+id/et_user"
+            style="@style/btnStyle"
+            android:hint="username"
+            android:padding="10dp" />
+        <EditText
+            style="@style/btnStyle"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_pwd"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:padding="10dp" />
+        <CheckBox
+            android:id="@+id/cb_remember"
+            android:layout_alignLeft="@id/et_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Remember"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/bt_login"
+            style="@style/btnStyle"
+
+            android:gravity="center"
+            android:text="@string/btn_login"
+            />
+</LinearLayout>

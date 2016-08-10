@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="btn_login">Login</string>
+    <string name="empty_name"> 用户名或密码不能为空</string>
+    <string name="wrong_name"> 用户名或密码不正确</string>
+
+</resources>
